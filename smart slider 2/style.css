@@ -1,0 +1,648 @@
+/*navbar*/
+/*.header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 74px;
+    background-color:#0c1d2c;
+    color: white;
+    
+  }*/
+  
+  #header h2 {
+    padding-left: 0.3rem;
+    padding-right: 20rem;
+  }
+  #navbar #navs {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  
+  }
+  #navbar ul .nav-item .dropdown-menu .dropdown-item {
+    display: block;
+  }
+  
+  #navbar ul li {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    color: #e7e9ea;
+  }
+  #bt {
+
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #fff;
+   
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#btt{
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: black;
+   
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#img{
+    width: 468px;
+    height: 700px;
+}
+#ts{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+#hero #open{
+    padding: 45px 65px 45px 65px;
+    background-color: #184e87;
+}
+#hero #book-table{
+    background-color:#f29879;
+}
+#leaf{
+  background-image: url('https://smartslider3.com/wp-content/uploads/slider/cache/99a7aaf990f11add801cf006229aa4e3/olive1.webp');
+  background-position-x:490px ;
+ padding-top: 4rem;
+ padding-bottom: 22.2rem;
+ padding-left: 5rem;
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+#leaf #res{
+    font-family: 'ui-sans-serif;';
+    color: #EB8572;
+    font-size: 487.5%;
+}
+#book-table{
+    color: white;
+    font-size: 112.5%;
+    
+}
+#book-table h4{
+    padding-top: 7rem;
+    padding-left: 1.5rem
+}
+#tx{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+
+}
+#ds{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 537.5%;
+   
+    font-weight: 900;
+}
+#table{
+    position: relative;
+    top: -235px;
+    padding-left: 0px;
+}
+#open ul{
+    color: white;
+}
+#leaf p{
+    font-family: 'Mulish';
+    color: #212121;
+    font-size: 125%;
+}
+#open ul{
+    list-style: none;
+    padding-left: 0;
+}
+#open ul li:first-child{
+    padding-bottom: 0.5rem;
+}
+#col{
+    width:211px;
+}
+
+
+
+/*Greece*/
+#left{
+    background-image: url('https://smartslider3.com/wp-content/uploads/slider/cache/183a5c88f57e70554a856e0f7b152fcb/olive-branch2.webp');
+    background-position-y: 570px;
+    background-repeat: no-repeat;
+  background-size: 520px;
+  padding-left: 8.5rem;
+  background-position-x: -9px;
+  
+}
+
+
+#blank{
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+#right{
+    padding-left: 3rem;
+}
+#body{
+    width: 22rem;
+}
+
+#Greece{
+    background-color: #f9fafb;
+    padding-top: 4rem;
+}
+#tt{
+    height: 700px;
+}
+#x{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 387.5%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 900;
+    
+}
+#y{
+    font-family: 'Work Sans';
+    color: #EC9875;
+    font-size: 112.5%;
+    text-shadow: none;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: 0.2em;
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#ti{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 150%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 900;
+}
+#p{
+    font-family: 'Mulish';
+    color: #212121;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.75;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+}
+.card{
+    border-radius: 0;
+}
+
+
+/* dinner menu*/
+#dinner{
+    background-color: #fff8f5;
+}
+#menu{
+    background-color: #fff8f5;
+    padding-top: 12rem;
+    text-align:center;
+}
+
+#authentic{
+    font-family: 'Work Sans';
+    color: #EC9875;
+    font-size: 112.5%;
+    text-shadow: none;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: 0.2em;
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+#pita{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 125%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 700;
+}
+   
+#below{
+    font-family: 'Mulish';
+    color: #212121;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.75;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+#rate{
+    font-family: 'Mulish';
+    color: #212121;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.75;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 700;
+   
+}
+#rate h4{
+    padding-bottom: 6rem;
+}
+#button{
+    background-color: black;
+  
+}
+
+.carousel-indicators {
+    
+    top: 0;
+    
+}
+
+
+
+#menu1{
+    padding-top:5rem;
+    background-color: #fff8f5;
+    padding-left: 9rem;
+}
+
+#wid{
+    width:390px;
+}
+#info{
+    column-gap:4rem;
+    padding-top:1rem;
+}
+
+#wid h4{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 125%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 700;
+}
+
+#wid p{
+    font-family: 'Mulish';
+    color: #212121;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.75;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+}
+
+#info span{
+    font-family: 'Mulish';
+    color: #212121;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.75;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 700;
+}
+#dinner-bt{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+   background-color: #fff8f5;
+   box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    
+}
+#flex{
+    column-gap: 2rem;
+}
+#for{
+    padding-left: 18rem;
+}
+#bttt{
+    
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+    background-color: #204F8A;
+    color:#fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#about{
+    background-image: url('https://smartslider3.com/wp-content/uploads/slider/cache/8b01b68d6c67eb81d90512d896769183/olive-branch-3.webp') ;
+    background-position-y: -5px;
+   
+    background-repeat: no-repeat;
+  background-size: 520px;
+  background-position-x: -187px;
+  padding-bottom: 2rem;
+}
+#learn{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #f29879;
+    border: none;
+    color: white;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+}
+#story{
+    font-family: 'Work Sans';
+    color: #EC9875;
+    font-size: 112.5%;
+    text-shadow: none;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: 0.2em;
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 7rem;
+}
+#us{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 387.5%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 900;
+}
+#about-left{
+    padding-left: 6rem;
+    padding-top: 9rem;
+    padding-right: 4rem;
+}
+#img1{
+    width: 540px;
+    padding-top: 7rem;
+}
+#image{
+    padding-left: 2rem;
+}
+#our-team{
+    font-family: 'Work Sans';
+    color: #EC9875;
+    font-size: 112.5%;
+    text-shadow: none;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: 0.2em;
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 31rem;
+}
+#h{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 387.5%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 900; 
+    padding-left: 30rem;
+}
+#teamrow{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+#m1{
+padding-top: 2rem;
+}
+#m2{
+    padding-top: 4rem;
+}
+#m3{
+    padding-top: 2rem;
+}
+#m4{
+    padding-top: 4rem;
+}
+#name{
+    font-family: 'Cinzel Decorative';
+    color: #204F8A;
+    font-size: 125%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 900;
+    padding-top: 1rem;
+}
+
+#down{
+    font-family: 'Mulish';
+    color: #212121;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.75;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+}
+#team{
+    background-color: #f5faff;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+}
+#footer{
+    background-color: #16202e;
+    color: white;
+}
+#footer #Nextend{
+    display: block;
+}
+#one{
+    font-size: 18px;
+    line-height: 1.3em;
+    color: #fff;
+    margin: 30px 0 15px;
+}
+#copy{
+    text-align: center;
+}
+#gg{
+    height: auto;
+    max-width: 100%;
+
+}
+#pages{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background-color: #16202e;
+}
+#pages h2{
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+
+/* Set general styles for the header and nav */
+.header {
+    padding: 10px;
+    
+    transition: all 0.5s;
+    z-index: 997;
+    height: 74px;
+    background-color: #0c1d2c;
+    color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Collapse navigation for smaller screens */
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+        display: none; /* Initially hide the list */
+    }
+
+    #navbar:after {
+        content: '\2630'; /* Unicode character for menu icon */
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+}
+
+/* Show navigation list on menu icon click */
+#navbar:after:hover + .nav-list,
+.nav-list:hover {
+    display: flex;
+    flex-direction: column;
+}
